@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YsLc7zBArUmhpJcrZCiMCX/oBTmyJnV4kVDeRFvtDGI0K0dPBOUZelDzG+O2ONe+69f56/tKELRaHaUwrUJFyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mari Machado\\.nuget\\packages\\mysqlconnector\\2.1.4\\mysqlconnector.2.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

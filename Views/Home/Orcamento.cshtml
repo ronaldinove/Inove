@@ -1,0 +1,39 @@
+@model ItemOrcamento
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Orçamentos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+
+        <form method="POST" asp-action="Confirmacao">
+            <p>
+                <label asp-for="Nome">Nome:</label>
+                <input type="text" asp-for="Nome">
+            </p>
+            <p>
+                <label asp-for="Telefone">Telefone:</label>
+                <input type="" asp-for="Telefone">
+            </p>
+            <p>
+                <label asp-for="Servico">Serviço:</label>
+                <select asp-for="Servico">
+                    <option value="Importacao">Importação</option>
+                    <option value="Manutencao">Manutenção de Aparelho</option>
+                    <option value="Acessorios">Acessórios</option>
+                </select>
+            </p>
+            <p>
+            <textarea asp-for="Mensagem">Descreva em detalhes sua necessidade:</textarea>
+            
+            </p>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+</html>
