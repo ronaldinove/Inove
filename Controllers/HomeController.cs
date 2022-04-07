@@ -20,6 +20,7 @@ namespace I9site.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Isso é um alerta. Controller/Index");
             return View();
         }
 
@@ -58,5 +59,23 @@ namespace I9site.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+    
+
+        [HttpPost]
+        public IActionResult Cadastrar(Orcamento o)
+        {
+            try
+            {
+                OrcamentoService os = new OrcamentoService();
+                os.Inserir(o);
+                return Json(new {status="OK"});
+            
+            }catch(Exception e){
+                
+                _logger.LogError("Erro global: " + e.Message);
+                return Json(new {status="ERRO",mensagem="Falha ao gravar os dados! Tente novamente mais tarde."});
+            }
+        }
+     
     }
 }

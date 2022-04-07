@@ -1,23 +1,21 @@
-/*using System;
+using System;
 using System.Collections.Generic;
 using MySqlConnector;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace I9site.Models
 {
 
-    public class OrcamentosRepository
+    public class OrcamentosRepository: DbContext
     {
-        //BANCO DE DADOS
-
-        private const string DadosConexao = "Database= inove; Data Source=localhost; User Id=root;";
-
-        public void TestarConexao(){
-            MySqlConnection Conexao = new MySqlConnection (DadosConexao);
-            Conexao.Open();
-            Console.WriteLine("Banco de dados funcionando!");
-            Conexao.Close();
+        protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) {
+        
+            optionsBuilder.UseMySql("Server=localhost;DataBase=Inove;Uid=root; Pwd=;");
         }
+
+        public DbSet<Orcamento> Orcamentos {get; set;}
 
     }
 
-}*/
+}

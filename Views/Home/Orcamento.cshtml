@@ -1,39 +1,48 @@
-@model ItemOrcamento
+@model Orcamento
 
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Orçamentos</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    </head>
-    <body>
 
-        <form method="POST" asp-action="Confirmacao">
-            <p>
-                <label asp-for="Nome">Nome:</label>
-                <input type="text" asp-for="Nome">
-            </p>
-            <p>
-                <label asp-for="Telefone">Telefone:</label>
-                <input type="" asp-for="Telefone">
-            </p>
-            <p>
-                <label asp-for="Servico">Serviço:</label>
-                <select asp-for="Servico">
-                    <option value="Importacao">Importação</option>
-                    <option value="Manutencao">Manutenção de Aparelho</option>
-                    <option value="Acessorios">Acessórios</option>
-                </select>
-            </p>
-            <p>
-            <textarea asp-for="Mensagem">Descreva em detalhes sua necessidade:</textarea>
-            
-            </p>
+<head>
+    <title>Orçamentos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
 
-            <input type="submit" value="Enviar">
+<body>
+    <div class="row-mt-5">
+        <div class="col-md-12">
+            <div id="frm">
+                <form method="POST" asp-action="Confirmacao" id="frmCadastro">
+                    <div>
+                        <label asp-for="Nome">Nome:</label>
+                        <input type="text" asp-for="Nome" id="nome">
+                    </div>
+                    <div>
+                        <label asp-for="Telefone">Telefone:</label>
+                        <input type="" asp-for="Telefone" id="telefone">
+                    </div>
+                    <div>
+                        <label asp-for="Servico">Serviço:</label>
+                        <select asp-for="Servico" id="servico">
+                            <option value="Importacao">Importação</option>
+                            <option value="Manutencao">Manutenção de Aparelho</option>
+                            <option value="Acessorios">Acessórios</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label asp-for="Mensagem">Como podemos te ajudar?</label>
+                        <textarea asp-for="Mensagem" id="mensagem"></textarea>
+                    </div>
 
-        </form>
-    </body>
+
+                    <input type="submit" value="Enviar" id="BtnSubmit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

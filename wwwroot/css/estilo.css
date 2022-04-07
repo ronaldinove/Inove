@@ -61,6 +61,16 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-image: url(../imagens/mesadetrabalho.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+.nav-item{
+  font-style: bold;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  text-decoration-color: white;
 }
 .footer {
   position: absolute;
@@ -75,22 +85,19 @@ body {
 .logo{
   display:flex;
 }
-
 .menu{
-  background-color:black;
-  text-decoration-color: white;
-  font-style: bold;
-}
-
-.banner{
   background-color: black;
 }
 
-.background{
-  width: 1000px;
-  opacity: 0,7;
-  background-color: rgb(226, 222, 222);
-} 
+.navbar{
+  background-color: black;
+}
+
+.containerMenu{
+  /*background-color: black;
+*/  display: flex;
+  flex-wrap: nowrap;
+}
 
 footer{
   background-color: black;

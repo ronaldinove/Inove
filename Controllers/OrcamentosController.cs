@@ -1,4 +1,4 @@
-/*using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -13,14 +13,28 @@ namespace I9site.Controllers
     public class OrcamentosController:Controller
     {
         
-        // configuraçoes de login e retornos das páginas
-
-
-    //EDITAR
-
-        //public IActionResult Editar (int Id){
-            //if
+        
+    //INSERIR
+        public IActionResult Inserir()
+        {
+            return RedirectToAction("Confirmacao","Index");
         }
+       
+    //EDITAR
+        
+        public IActionResult Editar()
+        {
+            return RedirectToAction("Listagem");
+    
+        }
+    //LISTAR
 
+
+    //EXCLUIR
+    public IActionResult Excluir()
+        {
+            return RedirectToAction("Listagem");
+    
+        }
     }
-}*/
+}
