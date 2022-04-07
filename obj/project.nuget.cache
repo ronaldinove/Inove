@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IRg6yF/XZUDRPhRZohrDC3EX94O7fycAFddoZP3PnbZXCYfDxqx0M6XDeSkXObIHU2vIDycng8HnRduxWAf4lg==",
+  "dgSpecHash": "7Pqz4a5NkexMjaBa6ZXpth/zZ2gGaTqKFYsM4n4bYLaXJg2LVnz1yGw2/mgvnhEniLkhVIbLq5CxK/SzLt4TkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+  "projectFilePath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mari Machado\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\Mari Machado\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
@@ -21,7 +21,7 @@
     "C:\\Users\\Mari Machado\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\Mari Machado\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
     "C:\\Users\\Mari Machado\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
-    "C:\\Users\\Mari Machado\\.nuget\\packages\\mysqlconnector\\1.0.0\\mysqlconnector.1.0.0.nupkg.sha512",
+    "C:\\Users\\Mari Machado\\.nuget\\packages\\mysqlconnector\\2.1.8\\mysqlconnector.2.1.8.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Mari Machado\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.0.0\\pomelo.entityframeworkcore.mysql.3.0.0.nupkg.sha512",
     "C:\\Users\\Mari Machado\\.nuget\\packages\\pomelo.jsonobject\\2.2.0\\pomelo.jsonobject.2.2.0.nupkg.sha512",

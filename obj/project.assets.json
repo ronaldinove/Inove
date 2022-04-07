@@ -201,7 +201,7 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MySqlConnector/1.0.0": {
+      "MySqlConnector/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net5.0/MySqlConnector.dll": {}
@@ -583,13 +583,14 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "MySqlConnector/1.0.0": {
-      "sha512": "7meR9elqyw/cF67N19MCKYzZjtyMJBlaCvjOC53XbrRQcvzER1sICpzcHwpsZF7sTxhHDZk6b3J25IOvSJaj6A==",
+    "MySqlConnector/2.1.8": {
+      "sha512": "CVJ0w9PbUnBS3lfOII1J15DshAnJgKqkrvKfkTSiUerPjJpSAfv7LJR5aJNnzj+LdFw2grekguVe1kedp6LMyA==",
       "type": "package",
-      "path": "mysqlconnector/1.0.0",
+      "path": "mysqlconnector/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "lib/net45/MySqlConnector.dll",
         "lib/net45/MySqlConnector.xml",
         "lib/net461/MySqlConnector.dll",
@@ -598,18 +599,16 @@
         "lib/net471/MySqlConnector.xml",
         "lib/net5.0/MySqlConnector.dll",
         "lib/net5.0/MySqlConnector.xml",
-        "lib/netcoreapp2.1/MySqlConnector.dll",
-        "lib/netcoreapp2.1/MySqlConnector.xml",
-        "lib/netcoreapp3.0/MySqlConnector.dll",
-        "lib/netcoreapp3.0/MySqlConnector.xml",
-        "lib/netstandard1.3/MySqlConnector.dll",
-        "lib/netstandard1.3/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
         "lib/netstandard2.0/MySqlConnector.dll",
         "lib/netstandard2.0/MySqlConnector.xml",
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.1.0.0.nupkg.sha512",
+        "mysqlconnector.2.1.8.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -843,7 +842,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Design >= 3.0.0",
-      "MySqlConnector >= 1.0.0",
+      "MySqlConnector >= 2.1.8",
       "Pomelo.EntityFrameworkCore.MySql >= 3.0.0"
     ]
   },
@@ -854,11 +853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+      "projectUniqueName": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
       "projectName": "I9site",
-      "projectPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+      "projectPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
       "packagesPath": "C:\\Users\\Mari Machado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\obj\\",
+      "outputPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -896,7 +895,7 @@
           },
           "MySqlConnector": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[2.1.8, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

@@ -11,7 +11,7 @@ namespace I9site.Models
     {
         protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) {
         
-            optionsBuilder.UseMySql("Server=localhost;DataBase=Inove;Uid=root; Pwd=;");
+            optionsBuilder.UseMySql("Server=localhost;DataBase=Inove;Uid=root;");
         }
 
         public DbSet<Orcamento> Orcamentos {get; set;}

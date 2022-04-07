@@ -1,22 +1,24 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="~/css/estilo.css">
-    
-    
+
+
 </head>
+
 <body>
-    
+
     <div class="menu">
 
         <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
         
         
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark mb-3">
             
             <div class="containerMenu">
 
@@ -31,20 +33,20 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">PÁGINA INICIAL</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">PÁGINA INICIAL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SobreNos">SOBRE NÓS</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SobreNos">SOBRE NÓS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Produtos">PRODUTOS</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Produtos">PRODUTOS</a>
                         </li>
 
                          <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Servicos">SERVIÇOS</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Servicos">SERVIÇOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home"
                             asp-action="Orcamento">ORÇAMENTOS</a>
                         </li>
                     </ul>
@@ -52,20 +54,21 @@
             </div>
         </nav>
     </div>
-    
-    
-    
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-                   
-            
+
+
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - I9 Tecnologia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a>
+            &copy; 2022 - I9 Tecnologia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de
+                Privacidade</a>
         </div>
     </footer>
     <!--CHAMADA DE BOOTSTRAP E JAVASCRIP-->
@@ -75,4 +78,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

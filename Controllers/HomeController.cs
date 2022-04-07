@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using I9site.Models;
+using MySqlConnector;
 
 namespace I9site.Controllers
 {
@@ -61,7 +62,7 @@ namespace I9site.Controllers
         }
     
 
-        [HttpPost]
+       [HttpPost]
         public IActionResult Cadastrar(Orcamento o)
         {
             try

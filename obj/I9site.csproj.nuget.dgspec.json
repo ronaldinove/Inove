@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj": {}
+    "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj": {
+    "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+        "projectUniqueName": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
         "projectName": "I9site",
-        "projectPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
+        "projectPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\I9site.csproj",
         "packagesPath": "C:\\Users\\Mari Machado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\obj\\",
+        "outputPath": "C:\\Users\\Mari Machado\\Desktop\\Curso TI Ronaldo\\WEB\\7 Modulo B - Projeto integrador UC08\\Atividades\\Atv1_Carlos Machado\\I9site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,7 +49,7 @@
             },
             "MySqlConnector": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[2.1.8, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
